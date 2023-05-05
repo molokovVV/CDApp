@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0440B70C29E6ED3600E18EC8 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B70B29E6ED3600E18EC8 /* Assembly.swift */; };
+		0440B70E29E6ED4500E18EC8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B70D29E6ED4500E18EC8 /* Router.swift */; };
+		0440B71029E6ED7A00E18EC8 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B70F29E6ED7A00E18EC8 /* Person+CoreDataClass.swift */; };
+		0440B71629E6EEE900E18EC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B71529E6EEE900E18EC8 /* DetailViewController.swift */; };
+		0440B71829E6F03700E18EC8 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B71729E6F03600E18EC8 /* Person+CoreDataProperties.swift */; };
+		0440B71A29E6F11500E18EC8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B71929E6F11500E18EC8 /* CoreDataManager.swift */; };
+		0440B71F29E6F33A00E18EC8 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B71E29E6F33A00E18EC8 /* MainPresenter.swift */; };
+		0440B72729E711C000E18EC8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0440B72629E711C000E18EC8 /* SnapKit */; };
+		0440B72E29E71DB900E18EC8 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B72D29E71DB900E18EC8 /* DetailPresenter.swift */; };
+		04471A2529F05B0400F8D257 /* Date+String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04471A2429F05B0400F8D257 /* Date+String+Ext.swift */; };
+		04B043AC2A05438B00E444F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B043AB2A05438B00E444F8 /* SceneDelegate.swift */; };
 		04C38BE229E6BB18004CD418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C38BE129E6BB18004CD418 /* AppDelegate.swift */; };
-		04C38BE429E6BB18004CD418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C38BE329E6BB18004CD418 /* SceneDelegate.swift */; };
-		04C38BE629E6BB18004CD418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C38BE529E6BB18004CD418 /* ViewController.swift */; };
-		04C38BE929E6BB18004CD418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C38BE729E6BB18004CD418 /* Main.storyboard */; };
+		04C38BE629E6BB18004CD418 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C38BE529E6BB18004CD418 /* MainViewController.swift */; };
 		04C38BEC29E6BB18004CD418 /* CDApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C38BEA29E6BB18004CD418 /* CDApp.xcdatamodeld */; };
 		04C38BEE29E6BB19004CD418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C38BED29E6BB19004CD418 /* Assets.xcassets */; };
 		04C38BF129E6BB19004CD418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C38BEF29E6BB19004CD418 /* LaunchScreen.storyboard */; };
+		04E17F332A0537BC0081D2BE /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17F322A0537BB0081D2BE /* UIImage+Ext.swift */; };
+		04E17F352A0537FB0081D2BE /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17F342A0537FB0081D2BE /* UIViewController+Ext.swift */; };
+		04E17F372A0538C20081D2BE /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E17F362A0538C20081D2BE /* UITextField+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0440B70B29E6ED3600E18EC8 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		0440B70D29E6ED4500E18EC8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0440B70F29E6ED7A00E18EC8 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0440B71529E6EEE900E18EC8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0440B71729E6F03600E18EC8 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		0440B71929E6F11500E18EC8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0440B71E29E6F33A00E18EC8 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		0440B72D29E71DB900E18EC8 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		04471A2429F05B0400F8D257 /* Date+String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String+Ext.swift"; sourceTree = "<group>"; };
+		04B043AB2A05438B00E444F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04C38BDE29E6BB18004CD418 /* CDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C38BE129E6BB18004CD418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04C38BE329E6BB18004CD418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C38BE529E6BB18004CD418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04C38BE829E6BB18004CD418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C38BE529E6BB18004CD418 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04C38BEB29E6BB18004CD418 /* CDApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDApp.xcdatamodel; sourceTree = "<group>"; };
 		04C38BED29E6BB19004CD418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C38BF029E6BB19004CD418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C38BF229E6BB19004CD418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E17F322A0537BB0081D2BE /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		04E17F342A0537FB0081D2BE /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		04E17F362A0538C20081D2BE /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +56,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0440B72729E711C000E18EC8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0440B70329E6EBBB00E18EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C38BEF29E6BB19004CD418 /* LaunchScreen.storyboard */,
+				04C38BED29E6BB19004CD418 /* Assets.xcassets */,
+				04C38BF229E6BB19004CD418 /* Info.plist */,
+				04C38BEA29E6BB18004CD418 /* CDApp.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0440B70429E6EBC500E18EC8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04471A2329F05AED00F8D257 /* Extensions */,
+				0440B71D29E6F32900E18EC8 /* Presenters */,
+				0440B70A29E6EC7C00E18EC8 /* Services */,
+				0440B70929E6EC7200E18EC8 /* Scenes */,
+				0440B70829E6EC6800E18EC8 /* Model */,
+				0440B70729E6EC6000E18EC8 /* Router */,
+				0440B70629E6EC5700E18EC8 /* Assembly */,
+				0440B70529E6EC4800E18EC8 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0440B70529E6EC4800E18EC8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04C38BE129E6BB18004CD418 /* AppDelegate.swift */,
+				04B043AB2A05438B00E444F8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0440B70629E6EC5700E18EC8 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0440B70B29E6ED3600E18EC8 /* Assembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0440B70729E6EC6000E18EC8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0440B70D29E6ED4500E18EC8 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0440B70829E6EC6800E18EC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0440B70F29E6ED7A00E18EC8 /* Person+CoreDataClass.swift */,
+				0440B71729E6F03600E18EC8 /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0440B70929E6EC7200E18EC8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0440B71429E6EDDB00E18EC8 /* Main */,
+				0440B71329E6EDC400E18EC8 /* Properties */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0440B70A29E6EC7C00E18EC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0440B71929E6F11500E18EC8 /* CoreDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0440B71329E6EDC400E18EC8 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				0440B71529E6EEE900E18EC8 /* DetailViewController.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		0440B71429E6EDDB00E18EC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04C38BE529E6BB18004CD418 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0440B71D29E6F32900E18EC8 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				0440B71E29E6F33A00E18EC8 /* MainPresenter.swift */,
+				0440B72D29E71DB900E18EC8 /* DetailPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		04471A2329F05AED00F8D257 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04471A2429F05B0400F8D257 /* Date+String+Ext.swift */,
+				04E17F322A0537BB0081D2BE /* UIImage+Ext.swift */,
+				04E17F342A0537FB0081D2BE /* UIViewController+Ext.swift */,
+				04E17F362A0538C20081D2BE /* UITextField+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04C38BD529E6BB18004CD418 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +195,8 @@
 		04C38BE029E6BB18004CD418 /* CDApp */ = {
 			isa = PBXGroup;
 			children = (
-				04C38BE129E6BB18004CD418 /* AppDelegate.swift */,
-				04C38BE329E6BB18004CD418 /* SceneDelegate.swift */,
-				04C38BE529E6BB18004CD418 /* ViewController.swift */,
-				04C38BE729E6BB18004CD418 /* Main.storyboard */,
-				04C38BED29E6BB19004CD418 /* Assets.xcassets */,
-				04C38BEF29E6BB19004CD418 /* LaunchScreen.storyboard */,
-				04C38BF229E6BB19004CD418 /* Info.plist */,
-				04C38BEA29E6BB18004CD418 /* CDApp.xcdatamodeld */,
+				0440B70429E6EBC500E18EC8 /* Sources */,
+				0440B70329E6EBBB00E18EC8 /* Resources */,
 			);
 			path = CDApp;
 			sourceTree = "<group>";
@@ -86,6 +217,9 @@
 			dependencies = (
 			);
 			name = CDApp;
+			packageProductDependencies = (
+				0440B72629E711C000E18EC8 /* SnapKit */,
+			);
 			productName = CDApp;
 			productReference = 04C38BDE29E6BB18004CD418 /* CDApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 04C38BD529E6BB18004CD418;
+			packageReferences = (
+				0440B72529E711C000E18EC8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 04C38BDF29E6BB18004CD418 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +267,6 @@
 			files = (
 				04C38BF129E6BB19004CD418 /* LaunchScreen.storyboard in Resources */,
 				04C38BEE29E6BB19004CD418 /* Assets.xcassets in Resources */,
-				04C38BE929E6BB18004CD418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +277,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C38BE629E6BB18004CD418 /* ViewController.swift in Sources */,
+				04C38BE629E6BB18004CD418 /* MainViewController.swift in Sources */,
+				04E17F372A0538C20081D2BE /* UITextField+Ext.swift in Sources */,
+				0440B71029E6ED7A00E18EC8 /* Person+CoreDataClass.swift in Sources */,
+				04E17F352A0537FB0081D2BE /* UIViewController+Ext.swift in Sources */,
+				0440B71829E6F03700E18EC8 /* Person+CoreDataProperties.swift in Sources */,
+				0440B70C29E6ED3600E18EC8 /* Assembly.swift in Sources */,
 				04C38BE229E6BB18004CD418 /* AppDelegate.swift in Sources */,
+				04B043AC2A05438B00E444F8 /* SceneDelegate.swift in Sources */,
 				04C38BEC29E6BB18004CD418 /* CDApp.xcdatamodeld in Sources */,
-				04C38BE429E6BB18004CD418 /* SceneDelegate.swift in Sources */,
+				0440B71F29E6F33A00E18EC8 /* MainPresenter.swift in Sources */,
+				0440B72E29E71DB900E18EC8 /* DetailPresenter.swift in Sources */,
+				04471A2529F05B0400F8D257 /* Date+String+Ext.swift in Sources */,
+				04E17F332A0537BC0081D2BE /* UIImage+Ext.swift in Sources */,
+				0440B70E29E6ED4500E18EC8 /* Router.swift in Sources */,
+				0440B71A29E6F11500E18EC8 /* CoreDataManager.swift in Sources */,
+				0440B71629E6EEE900E18EC8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04C38BE729E6BB18004CD418 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04C38BE829E6BB18004CD418 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04C38BEF29E6BB19004CD418 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,10 +433,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TBKRN76F6S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CDApp/Info.plist;
+				INFOPLIST_FILE = CDApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,10 +460,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TBKRN76F6S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CDApp/Info.plist;
+				INFOPLIST_FILE = CDApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0440B72529E711C000E18EC8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0440B72629E711C000E18EC8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0440B72529E711C000E18EC8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		04C38BEA29E6BB18004CD418 /* CDApp.xcdatamodeld */ = {
