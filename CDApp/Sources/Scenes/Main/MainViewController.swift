@@ -59,6 +59,7 @@ class MainViewController: UIViewController {
         setupView()
         setupHierarchy()
         setupLayout()
+        tapHideKeyboard()
         presenter?.fetchAllPerson()
     }
 
@@ -67,7 +68,7 @@ class MainViewController: UIViewController {
         tableView.reloadData()
     }
 
-    // MARK: - Private functions
+    // MARK: - Setups
 
     private func setupView() {
 
@@ -105,8 +106,15 @@ class MainViewController: UIViewController {
             make.leading.trailing.bottom.equalTo(view)
         }
     }
+    
+    private func tapHideKeyboard() {
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+            tapGestureRecognizer.cancelsTouchesInView = false
+            view.addGestureRecognizer(tapGestureRecognizer)
+    }
 
-    // MARK: - OBJC Functions
+
+    // MARK: - Actions
 
     @objc func buttonAction() {
 
@@ -119,6 +127,10 @@ class MainViewController: UIViewController {
                                  with: .automatic)
             enterTextField.text = nil
         }
+    }
+    
+    @objc private func hideKeyboard() {
+        view.endEditing(true)
     }
 }
 
